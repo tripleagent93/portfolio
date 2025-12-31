@@ -7,7 +7,6 @@ export const headerData = {
     { text: 'Resume', href: '#resume' },
     { text: 'Porfolio', href: '#porfolio' },
     { text: 'Github', href: 'https://github.com/tripleagent93' },
-    { text: 'Contact', href: '#contact' },
   ],
 };
 
