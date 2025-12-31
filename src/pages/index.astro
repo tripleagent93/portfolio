@@ -2,14 +2,12 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features3 from '~/components/widgets/Features3.astro';
-import Header from '~/components/widgets/Header.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
-import { getPermalink } from '~/utils/permalinks';
 import heroImage from '../assets/images/headshot.jpg';
 
 const metadata = {
@@ -18,34 +16,13 @@ const metadata = {
 ---
 
 <Layout metadata={metadata}>
-  <Fragment slot="announcement"></Fragment>
-  <Fragment slot="header">
-    <Header
-      links={[
-        { text: 'Home', href: '#' },
-        { text: 'About', href: '#about' },
-        { text: 'Resume', href: '#resume' },
-        { text: 'Porfolio', href: '#porfolio' },
-        { text: 'Github', href: 'https://github.com/tripleagent93' },
-      ]}
-      actions={[
-        {
-          text: 'Hire me',
-          href: '#',
-        },
-      ]}
-      isSticky
-      showToggleTheme
-    />
-  </Fragment>
-
   <!-- Hero2 Widget ******************* -->
 
   <Hero
     id="hero"
     title="Max Otkidychev"
     tagline="Personal Web Demo"
-    actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
+    actions={[{ variant: 'primary', text: 'Hire me', href: '#contact' }]}
   >
     <Fragment slot="subtitle">
       I'm a Graphic Designer passionate about crafting visual stories. <br /> With 5 years of experience and a degree from
@@ -379,7 +356,7 @@ const metadata = {
 
   <!-- CallToAction Widget *********** -->
 
-  <CallToAction
+  <!-- <CallToAction
     title="Let's create together"
     subtitle="Ready to transform your vision into captivating designs?"
     actions={[
@@ -389,6 +366,32 @@ const metadata = {
         href: '/',
       },
     ]}
+  /> -->
+  <!-- Contact Widget **************** -->
+  <ContactUs
+    id="contact"
+    title="Drop us a message today!"
+    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Message',
+    }}
+    disclaimer={{
+      label:
+        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+    }}
+    description="Our support team typically responds within 24 business hours."
   />
 
   <!-- BlogLatestPost Widget **************** -->
