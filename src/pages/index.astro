@@ -30,305 +30,305 @@ const metadata = {
       years in front-end engineering and a Google UX certification, I design and build fluid, accessible,
       production-ready web applications.
     </Fragment>
+  </Hero>
+  <!-- Content Widget **************** -->
 
-    <!-- Content Widget **************** -->
+  <Content
+    id="about"
+    columns={3}
+    items={[
+      {
+        icon: 'tabler:brand-dribbble',
+        callToAction: {
+          target: '_blank',
+          text: 'Dribbble',
+          href: '#',
+        },
+      },
+      {
+        icon: 'tabler:brand-github',
+        callToAction: {
+          target: '_blank',
+          text: 'Github',
+          href: '#',
+        },
+      },
+      {
+        icon: 'tabler:brand-linkedin',
+        callToAction: {
+          target: '_blank',
+          text: 'LinkedIn',
+          href: '#',
+        },
+      },
+    ]}
+    image={{
+      src: heroImage,
+      alt: 'Colorful Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
+      <p>
+        Welcome to my digital space. As a UX Engineer, I live at the intersection of aesthetics and functionality. I
+        don't just build UI component libraries—I design the systems and write the clean, semantic React code that
+        brings them to life. I thrive on collaborating with design teams to ensure technical feasibility early on, and
+        with engineering teams to preserve design integrity through production. My goal is always to create responsive,
+        accessible, and intuitive digital products.
+      </p>
+      <br />
+      <br />
+      <p>If you're curious to see how I connect design thinking with development, you can follow my work:</p>
+    </Fragment>
 
-    <Content
-      id="about"
-      columns={3}
-      items={[
-        {
-          icon: 'tabler:brand-dribbble',
-          callToAction: {
-            target: '_blank',
-            text: 'Dribbble',
-            href: '#',
-          },
-        },
-        {
-          icon: 'tabler:brand-github',
-          callToAction: {
-            target: '_blank',
-            text: 'Github',
-            href: '#',
-          },
-        },
-        {
-          icon: 'tabler:brand-linkedin',
-          callToAction: {
-            target: '_blank',
-            text: 'LinkedIn',
-            href: '#',
-          },
-        },
-      ]}
-      image={{
-        src: heroImage,
-        alt: 'Colorful Image',
-        loading: 'eager',
-      }}
-    >
-      <Fragment slot="content">
-        <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
-        <p>
-          Welcome to my digital space. As a UX Engineer, I live at the intersection of aesthetics and functionality. I
-          don't just build UI component libraries—I design the systems and write the clean, semantic React code that
-          brings them to life. I thrive on collaborating with design teams to ensure technical feasibility early on, and
-          with engineering teams to preserve design integrity through production. My goal is always to create
-          responsive, accessible, and intuitive digital products.
-        </p>
-        <br />
-        <br />
-        <p>If you're curious to see how I connect design thinking with development, you can follow my work:</p>
-      </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
-      <Fragment slot="bg">
-        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-      </Fragment>
-    </Content>
+  <!-- Steps Widget ****************** -->
 
-    <!-- Steps Widget ****************** -->
+  <Steps
+    id="resume"
+    title="Work experience"
+    items={[
+      {
+        title:
+          'Software Engineer <br /> <span class="font-normal">RSI, Roseville, CA</span> <br /> <span class="text-sm font-normal">2018 - Present</span>',
+        description: `Collaborate with clients to understand design requirements and objectives. <br /> Develop branding solutions, including logos, color palettes, and brand guidelines. <br /> Design marketing materials such as brochures, posters, and digital assets. <br /> Create visually appealing user interfaces for websites and applications.`,
+        icon: 'tabler:briefcase',
+      },
+      {
+        title:
+          'Front-End Developer <br /> <span class="font-normal">ASDcom, Sacramento, CA</span> <br /> <span class="text-sm font-normal">2017 - 2018</span>',
+        description: `Assisted senior designers in creating design concepts and visual assets. <br /> Contributed to the development of brand identities and marketing collateral. <br /> Collaborated with the marketing team to ensure consistent design across campaigns. <br /> Gained hands-on experience in various design software and tools.`,
+        icon: 'tabler:briefcase',
+      },
+    ]}
+    classes={{ container: 'max-w-3xl' }}
+  />
 
-    <Steps
-      id="resume"
-      title="Work experience"
-      items={[
-        {
-          title:
-            'Software Engineer <br /> <span class="font-normal">RSI, Roseville, CA</span> <br /> <span class="text-sm font-normal">2018 - Present</span>',
-          description: `Collaborate with clients to understand design requirements and objectives. <br /> Develop branding solutions, including logos, color palettes, and brand guidelines. <br /> Design marketing materials such as brochures, posters, and digital assets. <br /> Create visually appealing user interfaces for websites and applications.`,
-          icon: 'tabler:briefcase',
-        },
-        {
-          title:
-            'Front-End Developer <br /> <span class="font-normal">ASDcom, Sacramento, CA</span> <br /> <span class="text-sm font-normal">2017 - 2018</span>',
-          description: `Assisted senior designers in creating design concepts and visual assets. <br /> Contributed to the development of brand identities and marketing collateral. <br /> Collaborated with the marketing team to ensure consistent design across campaigns. <br /> Gained hands-on experience in various design software and tools.`,
-          icon: 'tabler:briefcase',
-        },
-      ]}
-      classes={{ container: 'max-w-3xl' }}
-    />
+  <!-- Steps Widget ****************** -->
 
-    <!-- Steps Widget ****************** -->
+  <Steps
+    id="resume"
+    title="Education"
+    items={[
+      {
+        title: `Google UX Design Professional Certificate</span> <br /> <span class="text-sm font-normal">2025 - 2026</span>`,
+        description: `Focused on user research, wireframing, prototyping, and usability testing.`,
+        icon: 'tabler:brand-google',
+      },
+      {
+        title: `Bachelor of Science in Computer Science<br /> <span class="font-normal">California State University, Sacramento</span> <br /> <span class="text-sm font-normal">2014 - 2017</span>`,
+        icon: 'tabler:school',
+      },
+    ]}
+    classes={{ container: 'max-w-3xl' }}
+  />
 
-    <Steps
-      id="resume"
-      title="Education"
-      items={[
-        {
-          title: `Google UX Design Professional Certificate</span> <br /> <span class="text-sm font-normal">2025 - 2026</span>`,
-          description: `Focused on user research, wireframing, prototyping, and usability testing.`,
-          icon: 'tabler:brand-google',
-        },
-        {
-          title: `Bachelor of Science in Computer Science<br /> <span class="font-normal">California State University, Sacramento</span> <br /> <span class="text-sm font-normal">2014 - 2017</span>`,
-          icon: 'tabler:school',
-        },
-      ]}
-      classes={{ container: 'max-w-3xl' }}
-    />
+  <!-- Features3 Widget ************** -->
 
-    <!-- Features3 Widget ************** -->
+  <Features3
+    title="Skills"
+    subtitle="Discover the technical expertise and design methodologies I use to build seamless digital products."
+    columns={3}
+    defaultIcon="tabler:point-filled"
+    items={[
+      {
+        title: 'Design Systems Architecture',
+        description:
+          'Building scalable, tokenized component libraries in React that align perfectly with Figma variables (spacing, typography, color themes).',
+      },
+      {
+        title: 'Component-Driven Development',
+        description:
+          'Isolating, developing, and documenting UI components using tools like Storybook to ensure clean, reusable frontend code.',
+      },
+      {
+        title: 'Advanced React & State Management',
+        description:
+          'Leveraging modern React paradigms (Hooks, Context API, Redux/Zustand) to build high-performance, dynamic user interfaces.',
+      },
+      {
+        title: 'Semantic HTML & Web Accessibility (A11y)',
+        description:
+          'Implementing strict semantic markup, ARIA attributes, and keyboard navigation to achieve WCAG compliance and product inclusivity.',
+      },
+      {
+        title: 'Interaction Design & Micro-interactions',
+        description:
+          'Crafting smooth UI animations, page transitions, and feedback loops (via CSS/Framer Motion) that turn static layouts into intuitive user flows.',
+      },
+      {
+        title: 'Low-to-High Fidelity Prototyping',
+        description:
+          'Translating initial user research into interactive wireframes and functional code prototypes to rapidly test and validate user behavior.',
+      },
+      {
+        title: 'UX Research & Usability Testing',
+        description:
+          'Applying foundational UX methodologies—including user personas, heatmaps, and structured user interviews—to back design decisions with qualitative data.',
+      },
+      {
+        title: 'Responsive & Fluid Layouts',
+        description:
+          'Utilizing modern layouts (Tailwind CSS, CSS Grid/Flexbox) to ensure seamless, multi-screen compatibility across mobile, tablet, and desktop views.',
+      },
+      {
+        title: 'Cross-Functional Design-to-Code Handoff',
+        description:
+          'Serving as the translator layer between product designers and core engineering squads to eliminate friction, interpret design specs, and assess technical feasibility early.',
+      },
+    ]}
+  />
 
-    <Features3
-      title="Skills"
-      subtitle="Discover the technical expertise and design methodologies I use to build seamless digital products."
-      columns={3}
-      defaultIcon="tabler:point-filled"
-      items={[
-        {
-          title: 'Design Systems Architecture',
-          description:
-            'Building scalable, tokenized component libraries in React that align perfectly with Figma variables (spacing, typography, color themes).',
-        },
-        {
-          title: 'Component-Driven Development',
-          description:
-            'Isolating, developing, and documenting UI components using tools like Storybook to ensure clean, reusable frontend code.',
-        },
-        {
-          title: 'Advanced React & State Management',
-          description:
-            'Leveraging modern React paradigms (Hooks, Context API, Redux/Zustand) to build high-performance, dynamic user interfaces.',
-        },
-        {
-          title: 'Semantic HTML & Web Accessibility (A11y)',
-          description:
-            'Implementing strict semantic markup, ARIA attributes, and keyboard navigation to achieve WCAG compliance and product inclusivity.',
-        },
-        {
-          title: 'Interaction Design & Micro-interactions',
-          description:
-            'Crafting smooth UI animations, page transitions, and feedback loops (via CSS/Framer Motion) that turn static layouts into intuitive user flows.',
-        },
-        {
-          title: 'Low-to-High Fidelity Prototyping',
-          description:
-            'Translating initial user research into interactive wireframes and functional code prototypes to rapidly test and validate user behavior.',
-        },
-        {
-          title: 'UX Research & Usability Testing',
-          description:
-            'Applying foundational UX methodologies—including user personas, heatmaps, and structured user interviews—to back design decisions with qualitative data.',
-        },
-        {
-          title: 'Responsive & Fluid Layouts',
-          description:
-            'Utilizing modern layouts (Tailwind CSS, CSS Grid/Flexbox) to ensure seamless, multi-screen compatibility across mobile, tablet, and desktop views.',
-        },
-        {
-          title: 'Cross-Functional Design-to-Code Handoff',
-          description:
-            'Serving as the translator layer between product designers and core engineering squads to eliminate friction, interpret design specs, and assess technical feasibility early.',
-        },
-      ]}
-    />
+  <!-- Content Widget **************** -->
 
-    <!-- Content Widget **************** -->
+  <Content
+    id="portfolio"
+    title="Elevating User Experiences"
+    subtitle="Explore how I combine deep user research with clean, responsive code to solve real-world problems."
+    isReversed
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Developed a comprehensive brand identity for a tech startup, Tech Innovators, specializing in disruptive innovations. The goal was to convey a modern yet approachable image that resonated with both corporate clients and tech enthusiasts.',
+      },
+      {
+        title: 'Role:',
+        description:
+          'Led the entire branding process from concept to execution. Created a dynamic logo that symbolized innovation, selected a vibrant color palette, and I designed corporate stationery, website graphics, and social media assets.',
+      },
+    ]}
+    image={{
+      src: phoneMockupImage,
+      alt: 'Tech Design Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'View Case Study & Prototype',
+      icon: 'tabler:chevron-right',
+      href: '#',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Case Study: <br /><span class="text-2xl">CreditWise — Financial Literacy Mobile App</span>
+      </h3>
+    </Fragment>
 
-    <Content
-      id="portfolio"
-      title="Elevating User Experiences"
-      subtitle="Explore how I combine deep user research with clean, responsive code to solve real-world problems."
-      isReversed
-      items={[
-        {
-          title: 'Description:',
-          description:
-            'Developed a comprehensive brand identity for a tech startup, Tech Innovators, specializing in disruptive innovations. The goal was to convey a modern yet approachable image that resonated with both corporate clients and tech enthusiasts.',
-        },
-        {
-          title: 'Role:',
-          description:
-            'Led the entire branding process from concept to execution. Created a dynamic logo that symbolized innovation, selected a vibrant color palette, and I designed corporate stationery, website graphics, and social media assets.',
-        },
-      ]}
-      image={{
-        src: phoneMockupImage,
-        alt: 'Tech Design Image',
-      }}
-      callToAction={{
-        target: '_blank',
-        text: 'View Case Study & Prototype',
-        icon: 'tabler:chevron-right',
-        href: '#',
-      }}
-    >
-      <Fragment slot="content">
-        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-          Case Study: <br /><span class="text-2xl">CreditWise — Financial Literacy Mobile App</span>
-        </h3>
-      </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
-      <Fragment slot="bg">
-        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-      </Fragment>
-    </Content>
+  <!-- Content Widget **************** -->
 
-    <!-- Content Widget **************** -->
+  <Content
+    isReversed
+    isAfterContent={true}
+    items={[
+      {
+        title: 'Description:',
+        description:
+          'Designed as a capstone project for the Google UX Design Professional Certificate, CreditWise is a mobile application aimed at demystifying personal finance for young adults. The goal was to build an intuitive, stress-free interface that helps users track their credit score, set financial goals, and learn smart saving habits through gamified bite-sized lessons.',
+      },
+      {
+        title: 'Role:',
+        description: `Led the end-to-end product design process. Conducted primary user research and competitive audits, designed user flows, and created low-to-high fidelity wireframes in Figma. Developed an interactive, high-fidelity mobile prototype demonstrating seamless transitions and dynamic state changes to simulate a live React Native environment.`,
+      },
+    ]}
+    image={{
+      src: phoneMockupImage,
+      alt: 'Art and Music Poster Image',
+    }}
+    callToAction={{
+      target: '_blank',
+      text: 'View Live Site / GitHub Repository',
+      icon: 'tabler:chevron-right',
+      href: '#',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Case Study: <br /><span class="text-2xl">CreditWise Landing Page</span>
+      </h3>
+    </Fragment>
 
-    <Content
-      isReversed
-      isAfterContent={true}
-      items={[
-        {
-          title: 'Description:',
-          description:
-            'Designed as a capstone project for the Google UX Design Professional Certificate, CreditWise is a mobile application aimed at demystifying personal finance for young adults. The goal was to build an intuitive, stress-free interface that helps users track their credit score, set financial goals, and learn smart saving habits through gamified bite-sized lessons.',
-        },
-        {
-          title: 'Role:',
-          description: `Led the end-to-end product design process. Conducted primary user research and competitive audits, designed user flows, and created low-to-high fidelity wireframes in Figma. Developed an interactive, high-fidelity mobile prototype demonstrating seamless transitions and dynamic state changes to simulate a live React Native environment.`,
-        },
-      ]}
-      image={{
-        src: phoneMockupImage,
-        alt: 'Art and Music Poster Image',
-      }}
-      callToAction={{
-        target: '_blank',
-        text: 'View Live Site / GitHub Repository',
-        icon: 'tabler:chevron-right',
-        href: '#',
-      }}
-    >
-      <Fragment slot="content">
-        <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-          Case Study: <br /><span class="text-2xl">CreditWise Landing Page</span>
-        </h3>
-      </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
-      <Fragment slot="bg">
-        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-      </Fragment>
-    </Content>
+  <!-- Testimonials Widget *********** -->
 
-    <!-- Testimonials Widget *********** -->
+  <Testimonials
+    title="Client testimonials"
+    subtitle="Discover what clients have to say about their experiences working with me."
+    testimonials={[
+      {
+        testimonial: `Max is the best web designer!  He listens to you as a client and is patient in making sure your vision comes to life!  He is a unique blend of creativity and technical expertise to bring your website from a rough idea to a beautiful custom website! If you’re reading this review and you need a website for yourself or your organization, hire Max now!`,
+        name: 'Ervin McWilson',
+        job: 'Euntrepreneur, TEDx Speaker',
+        image: {
+          src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Mark Thompson Image',
+        },
+      },
+      {
+        testimonial: `Max designed and built my website, I'd say he did an outstanding job. Good communication and even designed a logo for my company.`,
+        name: 'Eugene Yelenskiy',
+        job: 'Owner, Voltage Solutions Inc',
+        image: {
+          src: 'https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Laura Simmons Image',
+        },
+      },
+      {
+        testimonial: `Easy to work with,and top quality results. Would highly recommend to anyone looking for web design, thanks!`,
+        name: 'David Kapelkin',
+        job: 'Owner, Sac HVAC',
+        image: {
+          src: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80',
+          alt: 'Emily Martinez Image',
+        },
+      },
+      {
+        testimonial: `We entrusted Sarah with revamping our website's user interface, and the results were astounding. Her intuitive design sense enhanced user experience, leading to a significant increase in engagement. She's a designer who truly understands the synergy of aesthetics and functionality.`,
+        name: 'Alex Foster',
+        job: 'Director of web services',
+        image: {
+          src: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Alex Foster Image',
+        },
+      },
+      {
+        testimonial: `She took our vision and elevated it beyond imagination. Her ability to capture brand essence and translate it into design is nothing short of remarkable. Working with her has been an inspiring journey.`,
+        name: 'Jessica Collins',
+        job: 'Product Manager',
+        image: {
+          src: 'https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=778&q=80',
+          alt: 'Jessica Collins Image',
+        },
+      },
+      {
+        testimonial: `Her ability to transform concepts into captivating visuals is nothing short of extraordinary. She took our event poster idea and turned it into a visual masterpiece that perfectly captured the essence of our festival. Sarah's dedication, creativity, and knack for delivering beyond expectations make her an invaluable asset to any project.`,
+        name: 'Michael Carter',
+        job: 'Event Coordinator',
+        image: {
+          src: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+          alt: 'Michael Carter Image',
+        },
+      },
+    ]}
+  />
 
-    <Testimonials
-      title="Client testimonials"
-      subtitle="Discover what clients have to say about their experiences working with me."
-      testimonials={[
-        {
-          testimonial: `Max is the best web designer!  He listens to you as a client and is patient in making sure your vision comes to life!  He is a unique blend of creativity and technical expertise to bring your website from a rough idea to a beautiful custom website! If you’re reading this review and you need a website for yourself or your organization, hire Max now!`,
-          name: 'Ervin McWilson',
-          job: 'Euntrepreneur, TEDx Speaker',
-          image: {
-            src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-            alt: 'Mark Thompson Image',
-          },
-        },
-        {
-          testimonial: `Max designed and built my website, I'd say he did an outstanding job. Good communication and even designed a logo for my company.`,
-          name: 'Eugene Yelenskiy',
-          job: 'Owner, Voltage Solutions Inc',
-          image: {
-            src: 'https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-            alt: 'Laura Simmons Image',
-          },
-        },
-        {
-          testimonial: `Easy to work with,and top quality results. Would highly recommend to anyone looking for web design, thanks!`,
-          name: 'David Kapelkin',
-          job: 'Owner, Sac HVAC',
-          image: {
-            src: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80',
-            alt: 'Emily Martinez Image',
-          },
-        },
-        {
-          testimonial: `We entrusted Sarah with revamping our website's user interface, and the results were astounding. Her intuitive design sense enhanced user experience, leading to a significant increase in engagement. She's a designer who truly understands the synergy of aesthetics and functionality.`,
-          name: 'Alex Foster',
-          job: 'Director of web services',
-          image: {
-            src: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-            alt: 'Alex Foster Image',
-          },
-        },
-        {
-          testimonial: `She took our vision and elevated it beyond imagination. Her ability to capture brand essence and translate it into design is nothing short of remarkable. Working with her has been an inspiring journey.`,
-          name: 'Jessica Collins',
-          job: 'Product Manager',
-          image: {
-            src: 'https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=778&q=80',
-            alt: 'Jessica Collins Image',
-          },
-        },
-        {
-          testimonial: `Her ability to transform concepts into captivating visuals is nothing short of extraordinary. She took our event poster idea and turned it into a visual masterpiece that perfectly captured the essence of our festival. Sarah's dedication, creativity, and knack for delivering beyond expectations make her an invaluable asset to any project.`,
-          name: 'Michael Carter',
-          job: 'Event Coordinator',
-          image: {
-            src: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-            alt: 'Michael Carter Image',
-          },
-        },
-      ]}
-    />
+  <!-- CallToAction Widget *********** -->
 
-    <!-- CallToAction Widget *********** -->
-
-    <!-- <CallToAction
+  <!-- <CallToAction
     title="Let's create together"
     subtitle="Ready to transform your vision into captivating designs?"
     actions={[
@@ -339,44 +339,42 @@ const metadata = {
       },
     ]}
   /> -->
-    <!-- Contact Widget **************** -->
-    <ContactUs
-      id="contact"
-      title="Get in touch"
-      subtitle="Have an exciting product vision, a complex design system that needs engineering, or a front-end role you're looking to fill? Drop me a message and let's discuss how we can work together."
-      inputs={[
-        {
-          type: 'text',
-          name: 'name',
-          label: 'Name',
-        },
-        {
-          type: 'email',
-          name: 'email',
-          label: 'Email',
-        },
-      ]}
-      textarea={{
-        label: 'Tell me about your project / role',
-      }}
-      disclaimer={{
-        label:
-          'By submitting this form, you agree to share your contact details with me so I can reply to your inquiry.',
-      }}
-      description="I typically reply within 24–48 business hours. You can also connect with me directly via LinkedIn."
-      button="Send Message"
-    />
+  <!-- Contact Widget **************** -->
+  <ContactUs
+    id="contact"
+    title="Get in touch"
+    subtitle="Have an exciting product vision, a complex design system that needs engineering, or a front-end role you're looking to fill? Drop me a message and let's discuss how we can work together."
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Name',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Tell me about your project / role',
+    }}
+    disclaimer={{
+      label: 'By submitting this form, you agree to share your contact details with me so I can reply to your inquiry.',
+    }}
+    description="I typically reply within 24–48 business hours. You can also connect with me directly via LinkedIn."
+    button="Send Message"
+  />
 
-    <!-- BlogLatestPost Widget **************** -->
+  <!-- BlogLatestPost Widget **************** -->
 
-    <BlogLatestPosts
-      id="blog"
-      title="Explore my insightful articles on my blog"
-      information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
-    >
-      <Fragment slot="bg">
-        <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-      </Fragment>
-    </BlogLatestPosts>
-  </Hero>
+  <BlogLatestPosts
+    id="blog"
+    title="Explore my insightful articles on my blog"
+    information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </BlogLatestPosts>
 </Layout>
