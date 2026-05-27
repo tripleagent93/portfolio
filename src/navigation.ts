@@ -19,8 +19,13 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
   socialLinks: [
-    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/max-otk/' },
+    {
+      ariaLabel: 'Figma',
+      icon: 'tabler:brand-figma',
+      href: 'https://www.figma.com/design/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=141-24&t=F3qBTpq6pE3ukny1-1',
+    },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/tripleagent93' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/max-otk/' },
   ],
   footNote: `
     &copy; ${year} Max Otk. All rights reserved.
