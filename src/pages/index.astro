@@ -8,8 +8,14 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
-import heroImage from '../assets/images/headshot.jpg';
-import phoneMockupImage from '../assets/images/Phone mockup @2x.png';
+import HeroImage from '../assets/images/headshot.jpg';
+import PhoneMockupImage from '../assets/images/Phone mockup @2x.png';
+import EugeneAvatar from '../assets/images/Eugene Y Avatar.png';
+import ErvinAvatar from '../assets/images/Ervin.png';
+import DavidAvatar from '../assets/images/David K.png';
+import IliyaAvatar from '../assets/images/Iliya.png';
+import MikeAvatar from '../assets/images/mike r.png';
+import DanAvatar from '../assets/images/Dan S.png';
 
 const metadata = {
   title: 'Max Otkidychev Portfolio Site',
@@ -63,7 +69,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: heroImage,
+      src: HeroImage,
       alt: 'Colorful Image',
       loading: 'eager',
     }}
@@ -204,7 +210,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: phoneMockupImage,
+      src: PhoneMockupImage,
       alt: 'Tech Design Image',
     }}
     callToAction={{
@@ -242,7 +248,7 @@ const metadata = {
       },
     ]}
     image={{
-      src: phoneMockupImage,
+      src: PhoneMockupImage,
       alt: 'Art and Music Poster Image',
     }}
     callToAction={{
@@ -274,17 +280,8 @@ const metadata = {
         name: 'Ervin McWilson',
         job: 'Euntrepreneur, TEDx Speaker',
         image: {
-          src: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Mark Thompson Image',
-        },
-      },
-      {
-        testimonial: `Max designed and built my website, I'd say he did an outstanding job. Good communication and even designed a logo for my company.`,
-        name: 'Eugene Yelenskiy',
-        job: 'Owner, Voltage Solutions Inc',
-        image: {
-          src: 'https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Laura Simmons Image',
+          src: ErvinAvatar,
+          alt: 'Ervin McWilson Image',
         },
       },
       {
@@ -292,35 +289,44 @@ const metadata = {
         name: 'David Kapelkin',
         job: 'Owner, Sac HVAC',
         image: {
-          src: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=772&q=80',
-          alt: 'Emily Martinez Image',
+          src: DavidAvatar,
+          alt: 'David K Image',
         },
       },
       {
-        testimonial: `We entrusted Sarah with revamping our website's user interface, and the results were astounding. Her intuitive design sense enhanced user experience, leading to a significant increase in engagement. She's a designer who truly understands the synergy of aesthetics and functionality.`,
-        name: 'Alex Foster',
-        job: 'Director of web services',
+        testimonial: `Amazing work start to finish, Max went the extra mile! Would highly recommend`,
+        name: 'Iliya Z',
+        job: 'Owner, Fund Finders',
         image: {
-          src: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Alex Foster Image',
+          src: IliyaAvatar,
+          alt: 'Ilya Z Image',
         },
       },
       {
-        testimonial: `She took our vision and elevated it beyond imagination. Her ability to capture brand essence and translate it into design is nothing short of remarkable. Working with her has been an inspiring journey.`,
-        name: 'Jessica Collins',
-        job: 'Product Manager',
+        testimonial: `I was satisfied with the whole process from A-Z. Very professional and quick. I highly recommend these services.`,
+        name: 'Mike Rybin',
+        job: 'Owner, Cali-Precision',
         image: {
-          src: 'https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=778&q=80',
-          alt: 'Jessica Collins Image',
+          src: MikeAvatar,
+          alt: 'Mike Rybin Image',
         },
       },
       {
-        testimonial: `Her ability to transform concepts into captivating visuals is nothing short of extraordinary. She took our event poster idea and turned it into a visual masterpiece that perfectly captured the essence of our festival. Sarah's dedication, creativity, and knack for delivering beyond expectations make her an invaluable asset to any project.`,
-        name: 'Michael Carter',
-        job: 'Event Coordinator',
+        testimonial: `Max is the absolute best. He’s responsive, punctual, detail oriented, efficient, honest, and can do pretty much anything you need. Seriously. He really understood what my company needed what style to choose, from the first meeting. He does excellent job and I’d recommend him to anyone.`,
+        name: 'Dan S',
+        job: 'Owner, Caliwoods Inc',
         image: {
-          src: 'https://images.unsplash.com/photo-1566492031773-4f4e44671857?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-          alt: 'Michael Carter Image',
+          src: DanAvatar,
+          alt: 'Dan S Image',
+        },
+      },
+      {
+        testimonial: `Max designed and built my website, I'd say he did an outstanding job. Good communication and even designed a logo for my company.`,
+        name: 'Eugene Yelenskiy',
+        job: 'Owner, Voltage Solutions Inc',
+        image: {
+          src: EugeneAvatar,
+          alt: 'Laura Simmons Image',
         },
       },
     ]}
