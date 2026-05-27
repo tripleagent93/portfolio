@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Max Otkidychev - Developer & Designer
+    default: Max Otkidychev - UX Engineer & Front End Developer
     template: '%s — Max Otk'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+  description: 'Portfolio of Max Otkidychev, a UX Engineer and Front End Developer specializing in building accessible, high-performance web applications and seamless user experiences.'
   robots:
     index: true
     follow: true
@@ -23,8 +23,8 @@ metadata:
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@maxotk'
+    site: '@maxotk'
     cardType: summary_large_image
 
 i18n:
