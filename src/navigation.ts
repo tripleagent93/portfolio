@@ -2,10 +2,10 @@ import { getPermalink } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    { text: 'Home', href: '#' },
-    { text: 'About', href: '#about' },
-    { text: 'Experience', href: '#resume' },
-    { text: 'Case Studies', href: '#portfolio' },
+    { text: 'Home', href: '/' },
+    { text: 'About', href: '/#about' },
+    { text: 'Experience', href: '/#resume' },
+    { text: 'Case Studies', href: '/#portfolio' },
     { text: 'Github', href: 'https://github.com/tripleagent93', target: '_blank' },
   ],
 };

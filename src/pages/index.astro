@@ -1,7 +1,6 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features3 from '~/components/widgets/Features3.astro';
@@ -9,13 +8,13 @@ import Hero from '~/components/widgets/Hero.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
 import HeroImage from '../assets/images/headshot.jpg';
-import PhoneMockupImage from '../assets/images/Phone mockup @2x.png';
-import EugeneAvatar from '../assets/images/Eugene avatar.png';
-import ErvinAvatar from '../assets/images/Ervin.png';
-import DavidAvatar from '../assets/images/David K.png';
-import IliyaAvatar from '../assets/images/Iliya.png';
-import MikeAvatar from '../assets/images/mike r.png';
-import DanAvatar from '../assets/images/Dan S.png';
+import PhoneMockupImage from '../assets/images/phone-mockup.png';
+import EugeneAvatar from '../assets/images/eugene-avatar.png';
+import ErvinAvatar from '../assets/images/ervin.png';
+import DavidAvatar from '../assets/images/david-k.png';
+import IliyaAvatar from '../assets/images/iliya.png';
+import MikeAvatar from '../assets/images/mike-r.png';
+import DanAvatar from '../assets/images/dan-s.png';
 
 const metadata = {
   title: 'Max Otkidychev Portfolio Site',
@@ -214,10 +213,9 @@ const metadata = {
       alt: 'Tech Design Image',
     }}
     callToAction={{
-      target: '_blank',
       text: 'View Case Study & Prototype',
       icon: 'tabler:chevron-right',
-      href: '#',
+      href: '/creditwise-mobile-app-case-study',
     }}
   >
     <Fragment slot="content">
@@ -250,10 +248,9 @@ const metadata = {
       alt: 'Art and Music Poster Image',
     }}
     callToAction={{
-      target: '_blank',
       text: 'View Live Site / GitHub Repository',
       icon: 'tabler:chevron-right',
-      href: '#',
+      href: 'creditwise-landing-page-case-study',
     }}
   >
     <Fragment slot="content">
@@ -367,16 +364,4 @@ const metadata = {
     description="I typically reply within 24–48 business hours. You can also connect with me directly via LinkedIn."
     button="Send Message"
   />
-
-  <!-- BlogLatestPost Widget **************** -->
-
-  <BlogLatestPosts
-    id="blog"
-    title="Explore my insightful articles on my blog"
-    information={`Dive into a realm of design wisdom and creative inspiration, where you'll find invaluable insights, practical tips, and captivating narratives that elevate and enrich your creative journey.`}
-  >
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-    </Fragment>
-  </BlogLatestPosts>
 </Layout>
