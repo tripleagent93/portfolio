@@ -7,7 +7,7 @@ import Features3 from '~/components/widgets/Features3.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Steps from '~/components/widgets/Steps.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
-import HeroImage from '../assets/images/headshot.jpg';
+import HeadshotImage from '../assets/images/headshot.jpg';
 import CreditWiseLandingPageMobile from '../assets/images/creditwise-landing-sidebyside.png';
 import CreditWiseLandingOffset from '../assets/images/creditwise-landing-grid-v2.png';
 import EugeneAvatar from '../assets/images/eugene-avatar.png';
@@ -28,7 +28,7 @@ const metadata = {
   <Hero
     id="hero"
     title="Max Otkidychev"
-    tagline="UX ENGINEER & FRONTEND DEVELOPER"
+    tagline="UX ENGINEER / FRONTEND DEVELOPER"
     actions={[{ variant: 'primary', text: 'View My Work', href: '#portfolio' }]}
   >
     <Fragment slot="subtitle">
@@ -69,8 +69,8 @@ const metadata = {
       },
     ]}
     image={{
-      src: HeroImage,
-      alt: 'Colorful Image',
+      src: HeadshotImage,
+      alt: 'Photo of Max',
       loading: 'eager',
     }}
   >
