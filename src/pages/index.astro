@@ -74,14 +74,18 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">About me</h2>
-      <p>
+      <h2
+        class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2 motion-safe:opacity-0 motion-safe:intersect:animate-fade"
+      >
+        About me
+      </h2>
+      <p class="motion-safe:opacity-0 motion-safe:intersect:animate-fade">
         I started my career as a frontend developer, but I’ve always been drawn to the design side of products —
         especially how UI and UX shape user behavior and experience. Over time, this interest evolved into a deeper
         focus on UX design, research, and interaction systems alongside my engineering work.
       </p>
       <br />
-      <p>
+      <p class="motion-safe:opacity-0 motion-safe:intersect:animate-fade">
         Today, I specialize in bridging the gap between design and development — translating product ideas and design
         systems into scalable, accessible React applications. I enjoy solving complex UI problems, collaborating with
         cross-functional teams, and building interfaces that are fast, intuitive, and refined in production.
