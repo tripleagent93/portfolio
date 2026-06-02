@@ -5,7 +5,8 @@ import Button from '~/components/ui/Button.astro';
 const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
 ---
 
-<form>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="4f860992-d672-412d-b8f0-9a134ed973ab" />
   {
     inputs &&
       inputs.map(
