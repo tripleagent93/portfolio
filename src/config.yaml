@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: Max Otk
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/creditwise-landing-offset.png'
         width: 1200
         height: 628
     type: website
