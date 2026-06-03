@@ -2,7 +2,7 @@
 publishDate: 2026-06-01T00:00:00Z
 title: 'CreditWise Landing Page'
 excerpt: Ever clicked on an ad and found yourself on a page that seemed to really want you to do something? Congratulations, you've landed on a Landing Page!
-image: '~/assets/images/Presentation 1 - Desktop.png'
+image: '~/assets/images/creditwise-landing-full-v2.png'
 tags:
   - Framer
   - Landing Page Design
