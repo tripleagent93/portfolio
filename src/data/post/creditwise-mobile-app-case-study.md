@@ -4,12 +4,14 @@ title: 'CreditWise Mobile App'
 excerpt: Ever clicked on an ad and found yourself on a page that seemed to really want you to do something? Congratulations, you've landed on a Landing Page!
 image: '~/assets/images/phone-mockup.png'
 tags:
-  - React
-  - TypeScript
-  - Tailwind
-  - Figma
+  - UX Research
+  - Wireframing
+  - Prototyping
+  - Usability Testing
+  - Design Systems
   - Storybook
-  - Framer Motion
+  - Figma
+  - React
 metadata:
   canonical: https://astrowind.vercel.app/landing
 ---
