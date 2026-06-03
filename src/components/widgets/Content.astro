@@ -5,6 +5,7 @@ import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Image from '~/components/common/Image.astro';
 import Button from '~/components/ui/Button.astro';
 import ItemGrid from '~/components/ui/ItemGrid.astro';
+import PostTags from '~/components/blog/Tags.astro';
 
 const {
   title = await Astro.slots.render('title'),
@@ -67,6 +68,29 @@ const {
             action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
           }}
         />
+        <div class="mt-8 intersect-once motion-safe:opacity-0 motion-safe:intersect:animate-fade">
+          <PostTags
+            tags={[
+              {
+                slug: 'react',
+                title: 'React',
+              },
+              {
+                slug: 'ux-design',
+                title: 'UX Design',
+              },
+              {
+                slug: 'figma',
+                title: 'Figma',
+              },
+              {
+                slug: 'storybook',
+                title: 'Storybook',
+              },
+            ]}
+            class="mr-5 rtl:mr-0 rtl:ml-5"
+          />
+        </div>
       </div>
       <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2">
         {
