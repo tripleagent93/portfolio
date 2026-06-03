@@ -4,14 +4,12 @@ title: 'CreditWise Landing Page'
 excerpt: Ever clicked on an ad and found yourself on a page that seemed to really want you to do something? Congratulations, you've landed on a Landing Page!
 image: '~/assets/images/Presentation 1 - Desktop.png'
 tags:
-  - UX Research
-  - Wireframing
-  - Prototyping
-  - Usability Testing
-  - Design Systems
-  - Figma
   - Framer
-  - Framer Motion
+  - Landing Page Design
+  - Responsive Design
+  - Interaction Design
+  - Accessibility
+  - Marketing Website
 metadata:
   canonical: https://astrowind.vercel.app/landing
 ---
