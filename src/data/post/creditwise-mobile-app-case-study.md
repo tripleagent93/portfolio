@@ -86,7 +86,8 @@ I mapped key user journeys to identify the most efficient paths through the appl
 
 I created low-fidelity wireframes to rapidly explore layout concepts, information hierarchy, and navigation patterns. The goal during this phase was to validate workflows before investing time in visual design.
 
-<!-- _\[Image: Initial Wireframe Concepts & Layout Exploration\]_ -->
+![Alt Text](../../assets/images/score-page-wireframe-1.JPG)
+![Alt Text](../../assets/images/wireframe-score-simulator.JPG)
 
 ---
 
