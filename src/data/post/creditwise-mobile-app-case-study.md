@@ -116,7 +116,7 @@ Once the wireframes were validated, I designed high-fidelity mockups in Figma. T
 - **Mobile-First Responsiveness:** Strict adherence to screen layout bounds and component padding.
 - **Consistent Design Patterns:** Universal iconography and visual element repetition.
 
-<!-- _\[Image: Final High-Fidelity App Designs Showcase\]_ -->
+![Alt Text](../../assets/images/hi-fi-mockups.JPG)
 
 ---
 
@@ -132,7 +132,8 @@ I developed an interactive prototype in Figma to simulate the complete user expe
 - Real-time progress tracking visualization
 - Micro-interactions and layout transitions
 
-<!-- _\[Image: Interactive Prototype Showcase / Video Capture Placeholder\]_ -->
+![Interactive Prototype Showcase](../../assets/images/prototype-nodes.JPG)
+[Link to Prototype](https://www.figma.com/proto/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=1345-2377&p=f&m=dev&scaling=min-zoom&content-scaling=fixed&page-id=681%3A517&starting-point-node-id=1345%3A2377&show-proto-sidebar=1&t=hQslF3OMS3qQNtmB-1)
 
 ---
 
@@ -164,9 +165,37 @@ To bridge the gap between design and development, I translated the design system
 - **Navigation Components:** Bottom tab bars and contextual navigation headers.
 - **Educational Content Cards:** Grid blocks holding bite-sized credit explanations.
 
-<!-- _\[Image: Storybook Architecture & Component Showcase Dashboard\]_ -->
+<iframe
+  src="https://credit-wise-mobile-app.vercel.app/iframe.html?id=components-accordion--open-by-default&viewMode=story"
+  width="100%"
+  height="600px"
+  style="border: 1px solid #eee; border-radius: 4px;"
+  allowfullscreen>
+</iframe>
 
-[View StoryBook Component Library](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
+<iframe
+  src="https://credit-wise-mobile-app.vercel.app/iframe.html?id=components-credit-score-gauge--all-ratings&viewMode=story"
+  width="100%"
+  height="600px"
+  style="border: 1px solid #eee; border-radius: 4px;"
+  allowfullscreen>
+</iframe>
+<iframe
+  src="https://credit-wise-mobile-app.vercel.app/iframe.html?id=components-button--primary-with-icon&viewMode=story"
+  width="100%"
+  height="600px"
+  style="border: 1px solid #eee; border-radius: 4px;"
+  allowfullscreen>
+</iframe>
+<iframe
+  src="https://credit-wise-mobile-app.vercel.app/iframe.html?id=components-badge--filled&viewMode=story"
+  width="100%"
+  height="600px"
+  style="border: 1px solid #eee; border-radius: 4px;"
+  allowfullscreen>
+</iframe>
+
+[StoryBook Component Library](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
 
 ---
 
@@ -174,7 +203,8 @@ To bridge the gap between design and development, I translated the design system
 
 CreditWise demonstrates my ability to take a product from initial research through design system development and frontend implementation planning. By combining UX methodologies with engineering principles, I created a scalable, user-centered experience that helps users better understand and improve their credit health.
 
-<!-- _\[Image: Final Finished Product Mockup\]_ -->
+![Alt Text](../../assets/images/creditwise-landing-offset.png)
+![Alt Text](../../assets/images/creditwise-landing-sidebyside.png)
 
 ---
 
