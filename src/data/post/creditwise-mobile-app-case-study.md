@@ -1,8 +1,8 @@
 ---
 publishDate: 2026-06-01T00:00:00Z
 title: 'CreditWise Mobile App'
-excerpt: Ever clicked on an ad and found yourself on a page that seemed to really want you to do something? Congratulations, you've landed on a Landing Page!
-image: '~/assets/images/phone-mockup.png'
+excerpt: 'Created as part of the Google UX Design Professional Certificate, CreditWise is a mobile app concept that simplifies credit monitoring through intuitive and accessible design.'
+image: '~/assets/images/creditwise-landing-single.png'
 tags:
   - UX Research
   - Wireframing
@@ -13,145 +13,201 @@ tags:
   - Figma
   - React
 metadata:
-  canonical: https://astrowind.vercel.app/landing
+  canonical: https://maxotk/creditwise-mobile-app-case-study
 ---
 
-In the vast digital landscape, standing out is more than a desire—it's a necessity. Enter the world of Landing Pages, the unsung heroes of digital marketing. With the power of the AstroWind template, developed using Astro and Tailwind CSS, crafting these pages becomes even more intuitive. Let's dive deep into understanding, creating, and optimizing them.
+## Overview
 
-## Landing Pages Unveiled
+As both the UX designer and frontend engineer, I led the project from research and discovery through wireframing, prototyping, design system creation, and Storybook component library development.
 
-A **Landing Page** is a standalone web page, distinct from your main website. Crafted with a singular objective: to convert visitors into actionable leads or sales. It's where a visitor "lands" post-clicking on a marketing link or ad.
+## Project Details
 
-Imagine clicking on an ad for a limited-time discount on a popular shoe brand. This action guides you to a page that showcases the discounted shoes, featuring a clear "Buy Now" button. That's a Landing Page in action, focusing your attention solely on the offer.
+| Detail           | Description                                                        |
+| :--------------- | :----------------------------------------------------------------- |
+| **Role**         | UX Designer & UX Engineer                                          |
+| **Platform**     | Mobile App                                                         |
+| **Tools**        | Figma, Storybook, React                                            |
+| **Deliverables** | Research, Wireframes, Prototypes, Design System, Component Library |
 
-## The Power of Precision
+---
 
-Unlike a homepage brimming with diverse content, a Landing Page is laser-focused. It eliminates potential distractions like excessive navigation, ensuring the visitor's attention remains undivided. The result? Higher conversion rates and a more streamlined user experience.
+## The Problem
 
-![Target](https://images.unsplash.com/photo-1596008194705-2091cd6764d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1639&q=80)
+Many credit monitoring applications overwhelm users with financial jargon, dense datasets, and unclear guidance on how to improve their credit score. Through research, I discovered that users wanted a simpler way to understand their credit health and actionable recommendations they could follow to achieve their financial goals.
 
-Think of a Landing Page as a digital salesperson. Just as a salesperson would pitch a product without distractions, a Landing Page promotes an offer without unnecessary links or information. It's like walking into a store with a single product on display, making your choice straightforward.
+The challenge was to create an experience that transformed complex financial information into a product that felt approachable, educational, and motivating.
 
-## Why Landing Pages Matter
+<!-- _\[Image: CreditWise Problem Context / App Concept Landing Area\]_ -->
 
-In today's digital rush, hoping customers stumble upon you is a strategy of the past. Landing Pages are the future. They:
+---
 
-- **Guide Traffic**: Directing visitors seamlessly through the sales funnel.
-- **Boost ROI**: Maximizing returns on marketing investments.
-- **Personalize User Experience**: Tailoring content to specific audience segments.
+## Research & Discovery
 
-For instance, if you're launching a new fitness app. A well-crafted Landing Page can target individuals interested in health and wellness, offering them a free trial. This targeted approach ensures that those genuinely interested in fitness are the ones you're engaging with.
+To better understand user needs and pain points, I conducted user interviews and analyzed existing credit monitoring applications.
 
-## Crafting the Perfect Landing Page
+### Key Findings
 
-Every element of your Landing Page should resonate with its core objective. Here's what a high-converting Landing Page entails:
+- **Confusing Terminology:** Users found credit terminology confusing and intimidating.
+- **Data over Education:** Existing platforms often prioritized raw data over user education.
+- **Actionable Guidance:** Users wanted personalized recommendations and clear next steps.
+- **Motivation:** Progress tracking significantly increased motivation and engagement.
 
-- **Benefit-Centric Headline**: Your headline should instantly convey the value proposition.
-- **Engaging Imagery**: Visuals that complement and enhance the content.
-- **Compelling Copy**: Clear, concise, and persuasive text that speaks directly to the visitor's needs.
-- **Clear Call-to-Action (CTA)**: A standout button or link urging the visitor to take action.
-- **Minimalist Design**: A clutter-free layout that emphasizes the offer. For example, using a Tailwind CSS web template like AstroWind.
-- **Trust Indicators**: Endorsements, reviews, and badges that bolster credibility.
+These findings helped define the product requirements and user flows.
 
-Imagine browsing online for a writing course. You land on a page with a captivating headline: "Unlock the Writer Within." Below, there's an engaging image of a person writing, followed by persuasive text and a bright "Enroll Now" button. This Landing Page has effectively used its elements to entice you to sign up.
+<!-- _\[Image: Research Artifacts, Synthesis, & Affinitization\]_ -->
 
-## Homepage vs. Landing Page
+---
 
-While both are pivotal, they serve distinct roles:
+## User Personas
 
-- **Homepage**: Offers a panoramic view of your brand, catering to diverse visitor intents.
-- **Landing Page**: Zeros in on a single, specific action, be it signing up, purchasing, or downloading.
+Based on the research, I created personas representing the primary target audience. The personas helped guide design decisions throughout the project and ensured that user needs remained at the center of the experience.
 
-Consider a popular online store. Their homepage might display various product categories, from electronics to clothing. However, if they’re promoting a summer sale, the Landing Page would focus solely on summer products. This focused approach urges visitors to take action, encouraging them to "Shop the Summer Sale Now!"
+<!-- _\[Image: User Persona Examples\]_ -->
 
-## The Art of Optimization
+---
 
-The digital realm is ever-evolving. Regular tweaks based on analytics can ensure your Landing Page remains a conversion powerhouse. Embrace A/B testing to compare different versions and refine for optimal results.
+## User Flows
 
-Let's say you have a Landing Page for a new skincare product. Version A uses an image of the product, while Version B showcases a video review. A/B testing might reveal that Version B, with the video, has a 20% higher conversion rate. Such insights can be invaluable for future campaigns.
+I mapped key user journeys to identify the most efficient paths through the application.
 
-## Landing Pages in Action
+### Core Flows
 
-Landing Pages are versatile tools in your marketing toolkit. They play a role in various scenarios: promoting a product launch, capturing emails for a newsletter, or driving event registrations. They’re not just about capturing leads but nurturing and converting them.
+1. Account onboarding
+2. Viewing credit score insights
+3. Setting financial goals
+4. Tracking progress
+5. Accessing educational content
 
-Presented below are several prevalent types of Landing Pages. Each link offers a prime example of its respective type. Additionally, we carefully craft each link in the form of a comprehensive guide.
+<!-- _\[Image: Core User Flow Diagram\]_ -->
 
-This approach ensures that you observe the best practices in action. Also, it enables you to acquire a step-by-step understanding of how to skillfully create each type.
+---
 
-### [Lead Generation Landing Page](landing/lead-generation)
+## Low-Fidelity Wireframes
 
-**Purpose**: Designed primarily to capture user data, such as email addresses or contact details.
+I created low-fidelity wireframes to rapidly explore layout concepts, information hierarchy, and navigation patterns. The goal during this phase was to validate workflows before investing time in visual design.
 
-**Content**: Usually includes a form where users can input their details. It also highlights what they'll get in return, such as an eBook, a webinar, or a free trial.
+<!-- _\[Image: Initial Wireframe Concepts & Layout Exploration\]_ -->
 
-**Focus**: Enticing visitors to provide their personal details by offering something valuable in return.
+---
 
-**Key Differentiator**: Unlike “Click-through Landing Pages,” which guide users to another step, these directly gather user data.
+## Iteration & Feedback
 
-**Example**: A digital marketing agency offering a free SEO audit in exchange for business contact details.
+Following usability testing, several improvements were made to simplify navigation and improve content discoverability.
 
-### [Long-form Sales Landing Page](landing/sales)
+### Design Improvements
 
-**Purpose**: Primarily designed to sell, aiming to persuade and convert visitors into customers.
+- **Simplified Dashboard:** Reorganized content layers for faster scanning.
+- **Streamlined Onboarding:** Reduced friction during the signup and identity check steps.
+- **Prominent Indicators:** Emphasized progress trackers and score goal milestones.
+- **Reduced Cognitive Load:** Grouped relevant data chunks and added plain-language explanations.
 
-**Content**: Extensive, providing a wealth of information including product details, benefits, user stories, success stories, guarantees, and bonuses.
+<!-- _\[Image: Before & After Design Evolution\]_ -->
 
-**Focus**: Utilizes a narrative to present a problem and offer the product or service as the solution. The aim is to emotionally connect with the visitor.
+---
 
-**Key Differentiator**: While 'Click-through Landing Pages' warm up the visitor for a bigger commitment. 'Long-form Sales Landing Pages' aim to close the sale directly on the page.
+## High-Fidelity Mockups
 
-**Example**: A weight loss program detailing a person's journey and the challenges they've faced. It also highlights how the program assisted them and why it's an ideal solution for others.
+Once the wireframes were validated, I designed high-fidelity mockups in Figma. The visual design focused on:
 
-### [Click-through Landing Page](landing/click-through)
+- **Accessibility:** Accessible color contrast ratios matching WCAG criteria.
+- **Clear Visual Hierarchy:** High typographic contrast and emphasis on key status updates.
+- **Financial Trust & Credibility:** Clean layouts, professional color choices, and secure messaging indicators.
+- **Mobile-First Responsiveness:** Strict adherence to screen layout bounds and component padding.
+- **Consistent Design Patterns:** Universal iconography and visual element repetition.
 
-**Purpose**: Acts as a middle step, warming up visitors for a bigger commitment.
+<!-- _\[Image: Final High-Fidelity App Designs Showcase\]_ -->
 
-**Content**: Provides essential details and benefits of an offer, urging visitors to click through to another page.
+---
 
-**Focus**: To lead visitors to the final conversion point, be it a checkout page or a sign-up form.
+## Interactive Prototype
 
-**Key Differentiator**: Unlike "Subscription Landing Pages" that aim for a recurring commitment, these lead to a one-time action.
+I developed an interactive prototype in Figma to simulate the complete user experience and validate interactions before development.
 
-**Example**: An online store showcasing a new product's benefits, leading visitors to the purchase page.
+### Prototype Features
 
-### [Product Details Landing Page](landing/product)
+- Smooth transition onboarding flows
+- Dynamic dashboard interactions
+- Step-by-step goal creation workflows
+- Real-time progress tracking visualization
+- Micro-interactions and layout transitions
 
-**Purpose**: Designed to inform by providing specific details about a product or service.
+<!-- _\[Image: Interactive Prototype Showcase / Video Capture Placeholder\]_ -->
 
-**Content**: Focuses on features, specifications, and benefits. May include high-quality images, detailed descriptions, demo videos, and user reviews.
+---
 
-**Focus**: Presents the product or service transparently and attractively.
+## Design System
 
-**Key Differentiator**: While 'Long-form Sales Landing Pages' aim to persuade through narratives and overcoming objections. 'Product Details Landing Pages' focus on presenting the product or service in a clear and detailed manner.
+To maintain consistency across the application, I created a scalable design system consisting of:
 
-**Example**: A tech website detailing a new laptop's specifications, unique features, comparisons with previous models, and user reviews.
+- **Color Tokens:** Brand colors, functional alert semantics, and system grays.
+- **Typography Scales:** Strictly mapped headings, body texts, and small caption styles.
+- **Spacing Rules:** Consistent grid system increments (e.g., 8pt grid).
+- **Grid Systems:** Adaptive layouts fitted cleanly to mobile screen edges.
+- **Reusable UI Patterns:** Reusable headers, footers, containers, and visual styles.
+- **Interaction States:** Defined default, hover, active, focused, and disabled looks.
 
-### [Coming Soon or Pre-Launch Landing Page](landing/pre-launch)
+<!-- _\[Image: Design System Tokens & Asset Library Overview\]_ -->
 
-**Purpose**: Creates excitement for an upcoming product, service, or event.
+---
 
-**Content**: Often includes a countdown timer, teaser content, and an option to sign up for notifications.
+## Storybook Component Library
 
-**Focus**: To generate buzz and capture early interest.
+To bridge the gap between design and development, I translated the design system into a reusable Storybook component library. Components were documented, tested, and displayed in isolation to support scalability and consistency.
 
-**Key Differentiator**: Unlike other landing pages that present available offers, these promote something not yet accessible.
+### Components Included
 
-**Example**: A game developer teasing their upcoming game release with sneak peeks and an option for early access.
+- **Buttons:** Primary, secondary, icon variants, and status states.
+- **Form Inputs:** text boxes, validation layouts, and verification prompts.
+- **Credit Score Cards:** Main arc dashboard component displaying scores and updates.
+- **Progress Indicators:** Linear bar metrics and tracking ring assets.
+- **Navigation Components:** Bottom tab bars and contextual navigation headers.
+- **Educational Content Cards:** Grid blocks holding bite-sized credit explanations.
 
-### [Subscription Landing Page](landing/subscription)
+<!-- _\[Image: Storybook Architecture & Component Showcase Dashboard\]_ -->
 
-**Purpose**: Encourages visitors to subscribe to a service, newsletter, or recurring product.
+[View StoryBook Component Library](https://credit-wise-mobile-app.vercel.app/?path=/docs/components-alert--docs)
 
-**Content**: Highlights the benefits of subscribing, often offering special deals or exclusive content for subscribers.
+---
 
-**Focus**: To secure a long-term commitment from the visitor.
+## Outcome
 
-**Key Differentiator**: Unlike "Click-through Landing Pages" that lead to a one-time action, these aim for a recurring commitment.
+CreditWise demonstrates my ability to take a product from initial research through design system development and frontend implementation planning. By combining UX methodologies with engineering principles, I created a scalable, user-centered experience that helps users better understand and improve their credit health.
 
-**Example**: A magazine promoting its monthly subscription, detailing exclusive articles and special subscriber-only benefits.
+<!-- _\[Image: Final Finished Product Mockup\]_ -->
 
-## Conclusion
+---
 
-In the digital marketing symphony, Landing Pages become the crescendo. They capture attention, evoke action, and drive results. As we move forward, an essential task is to optimize, maintain relevance, and create high-converting Landing Pages. These factors collectively hold the key to achieving digital success.
+## Key Takeaways
 
-Imagine a world where every online interaction gets personalized and directed. This showcases the potential of Landing Pages. For startups seeking traction or established brands introducing new products, Landing Pages can serve as the catalyst. They possess the power to spur digital growth and boost engagement.
+- Conducted user research and competitive analysis.
+- Created user personas and target user flows.
+- Designed modular low and high-fidelity wireframes.
+- Built full interactive prototypes in Figma.
+- Developed a scalable design token framework.
+- Implemented a clean Storybook component library.
+- Applied structural UX Engineering principles to tightly bridge design and development.
+
+---
+
+## Tools & Methods
+
+### Design
+
+- Figma
+- Design Systems
+- Wireframing
+- Prototyping
+
+### Research
+
+- User Interviews
+- Competitive Analysis
+- User Personas
+- Usability Testing
+
+### Development
+
+- React
+- Storybook
+- Component Libraries
+- Accessibility (WCAG)
