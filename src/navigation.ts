@@ -24,7 +24,11 @@ export const footerData = {
       icon: 'tabler:brand-figma',
       href: 'https://www.figma.com/design/8C149Ck2shVdm5d5HKkt7c/CreditWise?node-id=141-24&t=F3qBTpq6pE3ukny1-1',
     },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/tripleagent93' },
+    {
+      ariaLabel: 'Github',
+      icon: 'tabler:brand-github',
+      href: 'https://github.com/tripleagent93/credit-wise-mobile-app',
+    },
     { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/in/max-otk/' },
   ],
   footNote: `
