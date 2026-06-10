@@ -124,6 +124,8 @@ Once the wireframes were validated, I designed high-fidelity mockups in Figma. T
 
 I developed an interactive prototype in Figma to simulate the complete user experience and validate interactions before development.
 
+![Alt Text](../../assets/images/prototype.JPG)
+
 ### Prototype Features
 
 - Smooth transition onboarding flows
