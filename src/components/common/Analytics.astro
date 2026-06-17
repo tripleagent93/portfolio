@@ -11,3 +11,16 @@ import { ANALYTICS } from 'astrowind:config';
     />
   ) : null
 }
+
+<script>
+  // Re-fire page_view on Astro View Transitions navigations (which skip full page reloads)
+  document.addEventListener('astro:after-swap', () => {
+    const gtag = (window as Window & { gtag?: (...args: unknown[]) => void }).gtag;
+    if (typeof gtag === 'function') {
+      gtag('event', 'page_view', {
+        page_title: document.title,
+        page_location: window.location.href,
+      });
+    }
+  });
+</script>
